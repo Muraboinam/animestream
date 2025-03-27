@@ -4,7 +4,7 @@ services:
   web:
     build: .
     ports:
-      - "8080:80"
+      - "8085:8090"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost/health"]
       interval: 30s
