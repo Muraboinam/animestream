@@ -17,7 +17,7 @@ spec:
           image: maheshmu/animestream:v1  #  image
           ports:
             - containerPort: 8090  # This should match the port your Docker container exposes and also it should always the port where ypu give niginx port becuse it will take for nigink output port
- ---
+---
 apiVersion: v1
 kind: Service
 metadata:
